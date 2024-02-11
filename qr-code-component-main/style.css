@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  margin-top: 10%; /* Auto margin for bottom */
+  width: 50%; /* Adjust the width as needed */
+  margin-left: auto; /* Auto margin for left */
+  margin-right: auto; /* Auto margin for right */
+  width: 19%;
+  padding: 10px 1%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-box img {
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
+}
+
+.card-box h2 {
+  font-family: "Outfit";
+  font-size: 15px;
+  color: hsl(218, 44%, 22%);
+  padding: 0;
+}
+
+.card-box p {
+  font-family: "Outfit";
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  padding-top: 8px;
+}
+
+.card-box .main-text {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.attribution {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin-top: 10%; /* Auto margin for bottom */
+    width: 50%; /* Adjust the width as needed */
+    margin-left: auto; /* Auto margin for left */
+    margin-right: auto; /* Auto margin for right */
+    width: 35%;
+    padding: 10px 1%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .card-box img {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+  }
+
+  .card-box h2 {
+    font-family: "Outfit";
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+    padding: 0;
+  }
+
+  .card-box p {
+    font-family: "Outfit";
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    padding-top: 8px;
+  }
+
+  .card-box .main-text {
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin-top: 10%; /* Auto margin for bottom */
+    width: 50%; /* Adjust the width as needed */
+    margin-left: auto; /* Auto margin for left */
+    margin-right: auto; /* Auto margin for right */
+    width: 60%;
+    padding: 10px 1%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .card-box img {
+    height: 210px;
+    width: 210px;
+    border-radius: 15px;
+  }
+
+  .card-box h2 {
+    font-family: "Outfit";
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+    padding: 0;
+  }
+
+  .card-box p {
+    font-family: "Outfit";
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    padding-top: 8px;
+  }
+
+  .card-box .main-text {
+    text-align: center;
+    padding: 20px 0;
+  }
+}
