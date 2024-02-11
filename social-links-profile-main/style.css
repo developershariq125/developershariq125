@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --DarkGrey: hsl(0, 0%, 12%);
+  --OffBlack: hsl(0, 0%, 8%);
+  --Green: hsl(75, 94%, 57%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+.attribution {
+  color: #fff;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 10px 40px;
+  margin-bottom: 2%;
+}
+
+.card-text {
+  text-align: center;
+  font-family: "Inter";
+  color: hsl(0, 0%, 100%);
+}
+
+.card-text h3 {
+  font-size: 14px;
+}
+
+.card-img img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.primary-text h4 {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+}
+
+.card-text p {
+  color: hsl(0, 0%, 40%);
+  font-size: 13px;
+}
+
+.main-btn {
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 13px;
+  transition: all 0.3s linear;
+}
+
+.main-btn:hover {
+  color: hsl(0, 0%, 12%);
+  background-color: hsl(75, 94%, 57%);
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin-bottom: 2%;
+  }
+
+  .card-text {
+    text-align: center;
+    font-family: "Inter";
+    color: hsl(0, 0%, 100%);
+  }
+
+  .card-text h3 {
+    font-size: 14px;
+  }
+
+  .card-img img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+
+  .primary-text h4 {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+  }
+
+  .card-text p {
+    color: hsl(0, 0%, 40%);
+    font-size: 13px;
+  }
+
+  .main-btn {
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    font-family: "Inter";
+    font-size: 13px;
+    transition: all 0.3s linear;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin-bottom: 2%;
+  }
+
+  .card-text {
+    text-align: center;
+    font-family: "Inter";
+    color: hsl(0, 0%, 100%);
+  }
+
+  .card-text h3 {
+    font-size: 14px;
+  }
+
+  .card-img img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+
+  .primary-text h4 {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+  }
+
+  .card-text p {
+    color: hsl(0, 0%, 40%);
+    font-size: 13px;
+  }
+
+  .main-btn {
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    font-family: "Inter";
+    font-size: 13px;
+    transition: all 0.3s linear;
+  }
+}
