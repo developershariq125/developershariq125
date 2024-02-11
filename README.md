@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @developershariq125
+- 👋 Hi, I’m Mohammad Shariq
 - 👀 I’m interested in frontend development
 - 🌱 I’m currently learning js
 
